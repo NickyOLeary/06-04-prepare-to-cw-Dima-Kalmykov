@@ -39,7 +39,7 @@ namespace CWLibrary
             words.Add(new Pair<string, string>(word1, word2));
         }
 
-        public IEnumerator GetEnumerator() 
+        public IEnumerator GetEnumerator()
         {
             return locate == 0
                          ? words.GetRange(0, words.Count)
@@ -55,18 +55,10 @@ namespace CWLibrary
 
         public IEnumerable GetWords(char letter)
         {
-            return locate == 0
-                ? words.GetRange(0, words.Count)
+            return words
+                    .GetRange(0, words.Count)
                     .OrderBy(w => w.item1)
                     .Where(w => w.item1.StartsWith(letter.ToString()))
-                    .Select(w => w)
-                    .ToList()
-
-
-                : words.GetRange(0, words.Count)
-                    .OrderBy(w => w.item2)
-                    .Where(w => w.item2.StartsWith(letter.ToString()))
-                    .Select(w => w)
                     .ToList();
         }
 

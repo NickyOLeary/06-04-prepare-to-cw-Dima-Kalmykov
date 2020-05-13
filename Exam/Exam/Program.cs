@@ -63,12 +63,12 @@ namespace Exam
 
             for (var i = 0; i < lengthEng; i++)
             {
-                resEng += (char)(Rnd.Next('a', 'z' + 1));
+                resEng += (char)(Rnd.Next('a', 'b'+1));
             }
 
             for (var i = 0; i < lengthRus; i++)
             {
-                resRus += (char)(Rnd.Next('а', 'я' + 1));
+                resRus += (char)(Rnd.Next('а', 'в' + 1));
             }
 
             return (resEng, resRus);
@@ -120,7 +120,7 @@ namespace Exam
 
                 Console.WriteLine();
 
-                foreach (var pair in dict2.GetWords((char) Rnd.Next('a', 'z')))
+                foreach (var pair in dict2.GetWords((char) Rnd.Next('а', 'в')))
                 {
                     Console.WriteLine(pair);
                 }
