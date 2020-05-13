@@ -1,0 +1,6 @@
+C:\Users\Dmitry\source\repos\06-04-prepare-to-cw-Dima-Kalmykov\Exam\CWLibrary\bin\Debug\CWLibrary.dll
+C:\Users\Dmitry\source\repos\06-04-prepare-to-cw-Dima-Kalmykov\Exam\CWLibrary\bin\Debug\CWLibrary.pdb
+C:\Users\Dmitry\source\repos\06-04-prepare-to-cw-Dima-Kalmykov\Exam\CWLibrary\obj\Debug\CWLibrary.csprojAssemblyReference.cache
+C:\Users\Dmitry\source\repos\06-04-prepare-to-cw-Dima-Kalmykov\Exam\CWLibrary\obj\Debug\CWLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\source\repos\06-04-prepare-to-cw-Dima-Kalmykov\Exam\CWLibrary\obj\Debug\CWLibrary.dll
+C:\Users\Dmitry\source\repos\06-04-prepare-to-cw-Dima-Kalmykov\Exam\CWLibrary\obj\Debug\CWLibrary.pdb
